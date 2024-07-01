@@ -1,0 +1,5 @@
+.quick_view_quide::after {
+  content: '';
+  display: block;
+  clear: left;
+}

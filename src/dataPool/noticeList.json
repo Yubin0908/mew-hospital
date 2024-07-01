@@ -1,0 +1,101 @@
+[
+ {
+  "notice_no": 1,
+  "notice_title": "고양이 전문케어 야옹동물병원 오픈!!",
+  "notice_content": "안녕하세요. 고양이 전문케어병원 '야옹 동물병원'입니다. \n 저희 야옹 동물병원은 아이들을 더 가까이에서 살펴 보호자분과 행복한 삶을 위해 노력하는 동물병원이 되고자 합니다.",
+  "hit_count": 55,
+  "notice_regist": "2024-05-02",
+  "img_name": "common/no_image.png",
+  "admin_no": 510001
+ },
+ {
+  "notice_no": 2,
+  "notice_title": "내과 전문의 다니엘을 소개합니다.",
+  "notice_content": "본원의 내과 진료를 담당하고 계시는 다니엘 선생님을 소개합니다.",
+  "hit_count": 174,
+  "notice_regist": "2024-05-04",
+  "img_name": "park-daniel.jpg",
+  "admin_no": 510001
+ },
+ {
+  "notice_no": 3,
+  "notice_title": "외과 전문의 제이미를 소개합니다.",
+  "notice_content": "본원의 내과 진료를 담당하고 계시는 제이미 선생님을 소개합니다.",
+  "hit_count": 46,
+  "notice_regist": "2024-05-06",
+  "img_name": "jamie.jpg",
+  "admin_no": 510002
+ },
+ {
+  "notice_no": 4,
+  "notice_title": "야옹동물병원 찾아 오시는 길 안내",
+  "notice_content": "안녕하세요. 병원을 내원하실때 보다 찾아오시기 쉽게 달려드리고자 안내드립니다.",
+  "hit_count": 189,
+  "notice_regist": "2024-05-10",
+  "img_name": "common/no_image.png",
+  "admin_no": 510001
+ },
+ {
+  "notice_no": 5,
+  "notice_title": "야옹동물병원 고양이 건강검진 프로그램 안내",
+  "notice_content": "안녕하세요. 고양이 전문케어병원 '야옹 동물병원'입니다. \n 오늘은 본원의 고양이 건강검진 프로그램을 안내해 드리려 합니다.",
+  "hit_count": 275,
+  "notice_regist": "2024-05-11",
+  "img_name": "a9s0ga0sfuasjilr32jqefw.jpg",
+  "admin_no": 510002
+ },
+ {
+  "notice_no": 6,
+  "notice_title": "[공지] 진료시간 변경 안내",
+  "notice_content": "본원의 진료시간이 10:00 ~ 19:00 에서 08:00 ~ 22:00으로 변경되었습니다. 감사합니다.",
+  "hit_count": 681,
+  "notice_regist": "2024-05-20",
+  "img_name": "common/no_image.png",
+  "admin_no": 510003
+ },
+ {
+  "notice_no": 7,
+  "notice_title": "[공지] 6월 공휴일 정상진료 안내",
+  "notice_content": "안녕하세요. 저희 동물병원은 365일 연중무휴로 6월 공휴일에도 정상운영 합니다.",
+  "hit_count": 1,
+  "notice_regist": "2024-05-25",
+  "img_name": "4ag4ag5f4sdf2sfa5fasf.png",
+  "admin_no": 510001
+ },
+ {
+  "notice_no": 8,
+  "notice_title": "반려동물 건강을 위한 정기검진의 중요성",
+  "notice_content": "정기적인 건강검진은 반려동물의 건강을 유지하고 질병을 예방하는 데 매우 중요합니다. 저희 병원에서는 고양이와 강아지를 위한 맞춤형 건강검진 프로그램을 운영하고 있습니다.",
+  "hit_count": 83,
+  "notice_regist": "2024-05-26",
+  "img_name": "common/no_image.png",
+  "admin_no": 510002
+ },
+ {
+  "notice_no": 9,
+  "notice_title": "반려동물 겨울철 건강관리 팁",
+  "notice_content": "겨울철 반려동물의 건강관리를 위한 다양한 팁을 소개합니다. 실내외 온도 관리, 운동량 조절, 피부 및 발 관리 등 계절별 맞춤 관리가 중요합니다.",
+  "hit_count": 112,
+  "notice_regist": "2024-05-27",
+  "img_name": "cat-5932474_1280.jpg",
+  "admin_no": 510001
+ },
+ {
+  "notice_no": 10,
+  "notice_title": "반려동물 응급상황 대처법 안내",
+  "notice_content": "반려동물의 응급상황 발생 시 신속하고 적절한 대처가 매우 중요합니다. 저희 병원에서는 반려동물 응급처치 교육을 정기적으로 실시하고 있습니다.",
+  "hit_count": 94,
+  "notice_regist": "2024-05-28",
+  "img_name": "coronavirus-4984349_1280.jpg",
+  "admin_no": 510003
+ },
+ {
+  "notice_no": 11,
+  "notice_title": "우리 병원의 첨단 의료장비 소개",
+  "notice_content": "저희 병원은 최신 의료장비를 도입하여 반려동물의 정밀한 진단과 치료가 가능합니다. CT, MRI, 초음파 등의 첨단 장비를 갖추고 있습니다.",
+  "hit_count": 68,
+  "notice_regist": "2024-05-29",
+  "img_name": "equipment-3089883_1280.jpg",
+  "admin_no": 510002
+ }
+]
