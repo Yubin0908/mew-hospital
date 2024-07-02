@@ -11,6 +11,9 @@
 | 사용한 라이브러리 | antd v5.18.3 <br/>bootstrap v5.3.3 <br/>react-bootstrap v2.10.3 <br/>classnames v2.5.1<br/> date-fns v3.6.0 <br/>react-datepicker v7.2.0<br/>react-router-dom v6.24.0 |
   | 개발 환경     | Node.js v20.12.2                                                                                                                                                      |
 
+## 개발기간 및 인원
+1. 개발 인원 : 1명 [ 기여도 100% ]
+2. 개발 기간 : 2024. 06. 27 ~ 2024. 07. 02
 
 # 야옹 동물병원
 ![슬라이드0001](https://github.com/Yubin0908/mew-hospital/assets/127021788/9e3097ff-cd8c-479b-86b1-59e76ceb9e35)
