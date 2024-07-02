@@ -1,4 +1,5 @@
 {
+  "homepage": "https://yubin0908.github.io/mew-hospital",
   "name": "mew-hospital",
   "version": "0.1.0",
   "private": true,
@@ -11,6 +12,7 @@
     "bootstrap": "^5.3.3",
     "classnames": "^2.5.1",
     "date-fns": "^3.6.0",
+    "gh-pages": "^6.1.1",
     "react": "^18.3.1",
     "react-bootstrap": "^2.10.3",
     "react-datepicker": "^7.2.0",
@@ -24,7 +26,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [

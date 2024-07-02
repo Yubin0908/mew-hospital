@@ -14,7 +14,7 @@ const guideTextStyle = {
 
 const Quick_view = () => {
   return (
-    <div style={{width: '1200px', height: '50px', backgroundColor: '#fffedd', marginBottom: '15px'}}>
+    <div style={{width: '1200px', height: '50px', backgroundColor: '#fffedd', marginBottom: '15px', position: 'relative', zIndex: 999}}>
       <div className="quick_view_quide">
         <p style={guideTextStyle}>다음 방문일</p>
         <p style={{color: '#aaa', border: '1px solid gray', width: '.1px', height: '40px', float: 'left', marginTop: '5px'}}></p>

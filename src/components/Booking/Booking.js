@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, {useState} from 'react';
 import Navbar from '../Navbar/Navbar';
 import Footer from '../Footer/Footer';
 import {DownOutlined, FieldTimeOutlined, HomeFilled} from '@ant-design/icons';
@@ -12,11 +12,11 @@ import { format } from 'date-fns';
 
 const Booking = () => {
   const [isActive, setIsActive] = useState(false);
-  const [activeCat, setActiveCat] = useState(null);
-  const [selectedDate, setSelectedDate] = useState(null);
+  const [activeCat, setActiveCat] = useState("냐옹이");
+  const [selectedDate, setSelectedDate] = useState(format(Date(), 'yyyy-MM-dd'));
   const [selectedTime, setSelectedTime] = useState(null);
   const [selectedService, setSelectedService] = useState(null);
-  const [creactMode, setCreactMode] = useState(false);
+  const [createMode, setCreateMode] = useState(false);
 
   const toggleActive = cat => {
     setIsActive(!isActive);
@@ -38,9 +38,26 @@ const Booking = () => {
     setSelectedService(selected);
   };
 
+  const modeChangeHandler = () => {
+    if(!createMode){
+      create_mode();
+    } else {
+      normal_mode();
+    }
+  }
   const toggleCreateMode = () => {
-    setCreactMode(!creactMode)
-    console.log(creactMode);
+    setCreateMode(!createMode)
+    console.log(createMode);
+  }
+
+  const create_mode = e => {
+    const element = document.getElementsByClassName('addCat');
+    element[0].innerHTML = '반료묘 추가중..';
+  }
+
+  const normal_mode = e => {
+    const element = document.getElementsByClassName('addCat');
+    element[0].innerHTML = '반료묘 추가하기';
   }
 
   const timeMenu = (
@@ -85,7 +102,7 @@ const Booking = () => {
       name: '냐옹이',
       label:
         (<span className={classNames('', {'active': activeCat === '냐옹이'})}>
-          <a onClick={() => toggleActive('냐옹이')} style={{display: 'inline-block', marginLeft: '10px', marginRight: '10px'}}>'냐옹이'</a>
+          <a onClick={() => toggleActive('냐옹이')} style={{display: 'inline-block', marginLeft: '10px', marginRight: '10px'}}>냐옹이</a>
         </span>)
     },
     {
@@ -93,10 +110,18 @@ const Booking = () => {
       name: '나비',
       label:
         (<span className={classNames('', {'active': activeCat === '나비'})}>
-          <a onClick={() => toggleActive('나비')} style={{display: 'inline-block', marginLeft: '10px', marginRight: '10px'}}>'나비'</a>
+          <a onClick={() => toggleActive('나비')} style={{display: 'inline-block', marginLeft: '10px', marginRight: '10px'}}>나비</a>
         </span>)
     },
   ];
+
+  const bookingProcess = () => {
+    if (!activeCat || !selectedDate || !selectedTime || !selectedService) {
+      alert('예약정보가 올바르지 않습니다. 확인 후 다시 시도해 주세요.');
+    } else {
+      window.location.href =`#/BookingResult/${activeCat}/${selectedDate}`;
+    }
+  }
 
   return (
     <div>
@@ -116,12 +141,12 @@ const Booking = () => {
           {catList.map(cat => (
             cat.label
           ))}
-          <Switch style={{display: 'inline-block', marginTop: '-10px', marginLeft: '20px'}} onClick={toggleCreateMode}/>
-          <span style={{marginLeft: '10px'}}>반료묘 추가하기</span>
+          <Switch style={{display: 'inline-block', marginTop: '-10px', marginLeft: '20px'}} onClick={toggleCreateMode} onChange={modeChangeHandler}/>
+          <span className='addCat' style={{marginLeft: '10px'}}>반료묘 추가하기</span>
         </div>
         <div>
         <div style={{backgroundColor: '#fff', width: '1200px', height: '605px', float: 'left', borderRadius: '15px'}}>
-            <div>
+            <div style={{ position: 'relative', top: '70px', left: '70px'}}>
               <p style={{float: 'left', marginLeft: '100px', marginTop: '40px'}}>진료일을 선택해 주세요.</p>
               <DatePicker
                 selected={selectedDate}
@@ -174,7 +199,7 @@ const Booking = () => {
             예약을 원하시면 '예약'버튼을 클릭해주세요.
           </p>
           <div>
-            <Button style={{ position: 'relative', top: '-70px', right: '-500px' }} type='primary'>예약하기</Button>
+            <Button style={{ position: 'relative', top: '-70px', right: '-500px' }} type='primary' onClick={bookingProcess}>예약하기</Button>
           </div>
         </div>
       </div>

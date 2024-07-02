@@ -1,16 +1,13 @@
 import React from 'react';
 import { Card, Button } from 'antd';
 import './style/Login.css';
+import {Link} from "react-router-dom";
 
 const Login = () => {
 
-  const bookingLink = () => {
-    window.location.href = '/booking';
-  }
-
   return (
     <div className="loginWrap">
-      <Card style={{ width: '350px', height: '470px', float: 'right', right: '60px', top: '-425px' }}>
+      <Card style={{ width: '350px', height: '470px', float: 'right', right: '60px', top: '-425px', zIndex: '1' }}>
         <div style={{ textAlign: 'center', fontWeight: 'bold', fontSize: '1.2rem'  }}>
           사용자님, 방문을 환영합니다.
         </div>
@@ -30,7 +27,9 @@ const Login = () => {
           }}
         >
           <p>진료 내역이 없습니다.</p>
-          <Button onClick={bookingLink} style={{border: '2px solid #00bfff', fontWeight: 'bold', fontSize: '1.1rem', backgroundColor: '#00bfff', color: '#fff', float: 'right' }}>예약</Button>
+          <Link to='/booking'>
+            <Button style={{border: '2px solid #00bfff', fontWeight: 'bold', fontSize: '1.1rem', backgroundColor: '#00bfff', color: '#fff', float: 'right' }}>예약</Button>
+          </Link>
         </Card>
         <div style={{textAlign: 'center', marginTop: '15px'}}>
           <Button style={{border: '2px solid #f0e68c', color: '#f0e68c', fontWeight: 'bold', marginRight: '10px', padding: '20px 30px'}}>대표 수정</Button>

@@ -1,6 +1,15 @@
 <center>
 
 ![2](https://github.com/Yubin0908/mew-hospital/assets/127021788/537ea80b-bf8f-4f0a-9ef4-7c89a07f2a77)
+***
+## 개발환경
+| 구 분       | 버젼                                                                                                                                                    |
+|-----------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 작업 툴      | VS Code                                                                                                                                               |
+| 작업 언어     | JS, React v18.3.1                                                                                                                                     |
+| 사용한 라이브러리 | antd v5.18.3, bootstrap v5.3.3, react-bootstrap v2.10.3 <br/>classnames v2.5.1, date-fns v3.6.0, react-datepicker v7.2.0<br/>react-router-dom v6.24.0 |
+  | 개발 환경  | Node.js v20.12.2 |
+
 
 # 야옹 동물병원
 ![슬라이드0001](https://github.com/Yubin0908/mew-hospital/assets/127021788/9e3097ff-cd8c-479b-86b1-59e76ceb9e35)
@@ -64,15 +73,4 @@
 ![슬라이드0038](https://github.com/Yubin0908/mew-hospital/assets/127021788/6ca79bac-8f1d-4154-a119-8593d839c02b)
 ![슬라이드0039](https://github.com/Yubin0908/mew-hospital/assets/127021788/155a3119-a89f-45ab-9cd7-82c202ad7181)
 
-
-
-
-
-
-
-
-</center>
-
-
-
-
+<center>

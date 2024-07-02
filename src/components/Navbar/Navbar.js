@@ -2,6 +2,7 @@ import React from 'react';
 import {Button, Layout, Menu} from 'antd';
 import logo from '../../images/logo.png';
 import './style/Navbar.css';
+import {Link} from "react-router-dom";
 
 const { Header } = Layout;
 const { SubMenu } = Menu;
@@ -19,7 +20,7 @@ const NavBar = () => {
         }}
       >
         <div>
-          <a href="/">
+          <a href="/mew-hospital/">
             <img
               src={logo}
               alt="hospital logo"
@@ -44,7 +45,7 @@ const NavBar = () => {
             <Menu.Item key="hospital"><a href="/hospital">병원 소개</a></Menu.Item>
           </SubMenu>
           <SubMenu key="surgary-booking" title="진료예약">
-            <Menu.Item key="booking"><a href="/booking">예약</a></Menu.Item>
+            <Menu.Item key="booking"><Link to="/booking">예약</Link></Menu.Item>
             <Menu.Item key="surgery-list"><a href="/surgery-list">진료내역 확인</a></Menu.Item>
           </SubMenu>
           <Menu.Item key="동물등록">

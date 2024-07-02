@@ -1,7 +1,8 @@
 import Main from "./Main/Main";
 import '../App.css';
-import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import { HashRouter as Router, Routes, Route} from "react-router-dom";
 import Booking from "./Booking/Booking";
+import BookingResult from "./Booking/BookingResult";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Main />} />
           <Route path="/Booking" element={<Booking />} />
+          <Route path="/BookingResult/:cat/:date" element={<BookingResult />} />
         </Routes>
       </Router>
     </div>
