@@ -3,12 +3,13 @@
 ![2](https://github.com/Yubin0908/mew-hospital/assets/127021788/537ea80b-bf8f-4f0a-9ef4-7c89a07f2a77)
 ***
 ## 개발환경
-| 구 분       | 버젼                                                                                                                                                    |
-|-----------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 작업 툴      | VS Code                                                                                                                                               |
-| 작업 언어     | JS, React v18.3.1                                                                                                                                     |
-| 사용한 라이브러리 | antd v5.18.3, bootstrap v5.3.3, react-bootstrap v2.10.3 <br/>classnames v2.5.1, date-fns v3.6.0, react-datepicker v7.2.0<br/>react-router-dom v6.24.0 |
-  | 개발 환경  | Node.js v20.12.2 |
+| 구 분       | 버젼                                                                                                                                                                    |
+|-----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| OS        | Microsoft Windows 11                                                                                                                                                  |
+| 작업 툴      | VS Code                                                                                                                                                               |
+| 작업 언어     | JS, React v18.3.1                                                                                                                                                     |
+| 사용한 라이브러리 | antd v5.18.3 <br/>bootstrap v5.3.3 <br/>react-bootstrap v2.10.3 <br/>classnames v2.5.1<br/> date-fns v3.6.0 <br/>react-datepicker v7.2.0<br/>react-router-dom v6.24.0 |
+  | 개발 환경     | Node.js v20.12.2                                                                                                                                                      |
 
 
 # 야옹 동물병원
