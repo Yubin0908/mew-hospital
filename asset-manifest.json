@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mew-hospital/static/css/main.401d8ffc.css",
-    "main.js": "/mew-hospital/static/js/main.3602111a.js",
+    "main.js": "/mew-hospital/static/js/main.b1585596.js",
     "static/js/453.d89800cb.chunk.js": "/mew-hospital/static/js/453.d89800cb.chunk.js",
     "static/media/jamie.jpg": "/mew-hospital/static/media/jamie.275f2102e027eebfa941.jpg",
     "static/media/ai-generated-8620359_1280.png": "/mew-hospital/static/media/ai-generated-8620359_1280.c4d5a9c5cb3202340763.png",
@@ -19,11 +19,11 @@
     "static/media/4ag4ag5f4sdf2sfa5fasf.png": "/mew-hospital/static/media/4ag4ag5f4sdf2sfa5fasf.f79214844f60d5db1785.png",
     "index.html": "/mew-hospital/index.html",
     "main.401d8ffc.css.map": "/mew-hospital/static/css/main.401d8ffc.css.map",
-    "main.3602111a.js.map": "/mew-hospital/static/js/main.3602111a.js.map",
+    "main.b1585596.js.map": "/mew-hospital/static/js/main.b1585596.js.map",
     "453.d89800cb.chunk.js.map": "/mew-hospital/static/js/453.d89800cb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.401d8ffc.css",
-    "static/js/main.3602111a.js"
+    "static/js/main.b1585596.js"
   ]
 }
